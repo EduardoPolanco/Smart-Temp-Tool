@@ -29,7 +29,7 @@ Smart Temp Tool is a cross-platform Python application that simulates drink heat
 ## 🚀 How to Run
 
 -- GUI
-'' Bash
+'''bash
 cd gui
 pip install -r requirements.txt
 python gui_main.py
