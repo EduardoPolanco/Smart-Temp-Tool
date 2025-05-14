@@ -21,8 +21,12 @@ Smart Temp Tool is a cross-platform Python application that simulates drink heat
 - macOS — source code + launch script included  
 - Windows — source code only in repo
 
-> 🪟 **Windows `.exe` downloads** for both CLI and GUI will be posted in the  
-👉 [Releases section](https://github.com/EduardoPolanco/Smart-Temp-Tool/releases)
+### 🪟 Windows Downloads
+
+Compiled executables for Windows users are available here:
+
+- [Download Smart Temp GUI (.exe)](https://github.com/EduardoPolanco/Smart-Temp-Tool/releases/latest)
+- [Download Smart Temp CLI (.exe)](https://github.com/EduardoPolanco/Smart-Temp-Tool/releases/latest)
 
 ---
 
