@@ -1,0 +1,47 @@
+[
+    {
+      "Liquid Type": "Water",
+      "Initial Temperature": 20,
+      "Desired Temperature": 80,
+      "Ambient Temperature": 22,
+      "Time to Target": 15,
+      "Battery Level": 90,
+      "User Preference": "Normal"
+    },
+    {
+      "Liquid Type": "Tea",
+      "Initial Temperature": 25,
+      "Desired Temperature": 65,
+      "Ambient Temperature": 22,
+      "Time to Target": 8,
+      "Battery Level": 85,
+      "User Preference": "Warm"
+    },
+    {
+      "Liquid Type": "Coffee",
+      "Initial Temperature": 60,
+      "Desired Temperature": 90,
+      "Ambient Temperature": 22,
+      "Time to Target": 10,
+      "Battery Level": 88,
+      "User Preference": "Hot"
+    },
+    {
+      "Liquid Type": "Juice",
+      "Initial Temperature": 30,
+      "Desired Temperature": 60,
+      "Ambient Temperature": 25,
+      "Time to Target": 12,
+      "Battery Level": 80,
+      "User Preference": "Cool"
+    },
+    {
+      "Liquid Type": "Soda",
+      "Initial Temperature": 22,
+      "Desired Temperature": 75,
+      "Ambient Temperature": 22,
+      "Time to Target": 14,
+      "Battery Level": 87,
+      "User Preference": "Normal"
+    }
+  ]

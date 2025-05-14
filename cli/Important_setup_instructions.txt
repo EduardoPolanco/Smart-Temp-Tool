@@ -1,0 +1,54 @@
+==============================
+Smart Temp CLI - Setup Guide
+==============================
+
+This tool runs entirely from the command line — no installation scripts or app launchers needed.
+
+📁 FOLDER CONTENTS
+-------------------
+- smart_temp_cli.py         <-- Main CLI script
+- README.md                 <-- Usage overview, features, and disclaimer
+- setup_instructions.txt    <-- This file
+- sample_data/              <-- Folder with sample CSV, JSON, and Excel files
+
+🧰 REQUIREMENTS
+-------------------
+- Python 3.8 or newer
+- Internet connection (to install dependencies)
+
+📦 INSTALL REQUIRED LIBRARIES
+------------------------------
+1. Open Terminal (macOS) or Command Prompt (Windows)
+2. Navigate to the Smart Temp CLI folder:
+   cd path/to/Smart_Temp_CLI
+
+3. Install the required packages:
+   pip3 install pandas tabulate reportlab
+
+✅ That’s it — you're ready to run the tool.
+
+🚀 RUN THE TOOL
+-------------------
+From the same folder, type:
+
+   python3 smart_temp_cli.py
+
+📌 Optional flags:
+   --fahrenheit              Convert temperatures to Fahrenheit  
+   --export-csv results.csv  Export results to CSV  
+   --export-pdf results.pdf  Export results to PDF (requires `reportlab`)
+
+🧪 TEST FILES
+-------------------
+To test the tool, use the sample files located in the `sample_data/` folder:
+
+- sample.csv  
+- sample.xlsx  
+- sample.json  
+
+📝 DISCLAIMER
+-------------------
+This tool is provided for educational/demo purposes only.  
+Do not use in production, for monetization, or in safety-critical environments.
+
+Enjoy! 🤙🤙

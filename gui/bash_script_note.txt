@@ -1,0 +1,24 @@
+Bash Launcher Script (macOS)
+=============================
+
+This tool includes a `.command` file to make the GUI launchable with a simple double-click on macOS:
+
+🟢 Script: Start_Smart_Temp.command  
+🔧 Action: Runs `python3 gui_main.py`
+
+Why this is needed:
+--------------------
+By default, macOS does not let Python scripts run with a double-click. To fix this:
+
+1. The script was made executable:
+   chmod +x Start_Smart_Temp.command
+
+2. The quarantine flag was removed to bypass security popups:
+   xattr -d com.apple.quarantine Start_Smart_Temp.command
+
+Now users can double-click `Start_Smart_Temp.command` to launch the GUI without using Terminal.
+
+Note:
+-----
+This is only needed for macOS.  
+Windows users can simply double-click `gui_main.py` (assuming Python is installed).

@@ -1,0 +1,43 @@
+🚨 IMPORTANT: READ THIS FIRST (MAC USERS)
+
+Before you can use the Smart Temp Tool, macOS needs permission to open the app.
+
+---
+
+✅ STEP 1: UNBLOCK THE APP (GATEKEEPER FIX)
+
+1. Open the Terminal app (press ⌘ Command + Space, then type: Terminal)
+
+2. Copy and paste this command into Terminal:
+
+xattr -d com.apple.quarantine ~/Downloads/gui_version/Start_Smart_Temp.command
+
+⚠️ If you moved the folder to Documents or another location, change the path above to match.  
+For example, if it’s in Documents change above line from Downloads to Documents.
+
+---
+
+✅ STEP 2: OPEN THE TOOL
+
+After running the command, just **double-click the file**:
+
+`Start_Smart_Temp.command`
+
+That’s it. The tool will open and install anything it needs automatically.
+
+---
+
+💡 You’ll need Python 3.10 or higher installed.  
+To check, open Terminal and type:
+
+python3 --version
+
+If you don’t have it, get it here:  
+https://www.python.org/downloads/mac-osx/
+
+---
+
+⚠️ What This Command Does
+
+The command above **only unlocks this one file** so macOS will allow it to run.  
+It doesn’t disable any security settings and nothing stays open or running in the background.

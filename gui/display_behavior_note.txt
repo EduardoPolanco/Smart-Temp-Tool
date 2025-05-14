@@ -1,0 +1,21 @@
+TEMPERATURE & BATTERY DISPLAY NOTE:
+
+This Smart Temp Tool GUI displays a simulated temperature gauge and a static battery level indicator for visual feedback.
+
+• The temperature bar simulates heating/cooling progress from the initial to the desired temperature. This is purely visual based on temperature difference and does not reflect real-time sensor data.
+
+• The battery level bar reflects the value provided in the input data file. It is not dynamically reduced during simulation. Power usage is instead shown as a calculated percentage and used for recommendations.
+
+This behavior aligns with the requirements stated in the project spec:
+- Visual dashboard-style display
+- Simulated temperature indicator
+- Battery status indicator (not live drain)
+
+No real hardware integration is required or expected.
+
+Optional Input Tips:
+
+• Drink Type — Type a name like tea, iced coffee, water. This field filters results by liquid name (case-insensitive).
+• Max Time (min) — Enter a number like 5 or 10.5 to filter by heating/cooling duration. Leave it blank to include all.
+
+❗ Don’t worry — if the format is wrong, the app will show a popup with an example to help you fix it.

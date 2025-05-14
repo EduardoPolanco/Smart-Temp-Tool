@@ -1,0 +1,6 @@
+Liquid Type,Initial Temperature,Desired Temperature,Ambient Temperature,Time to Target,Battery Level,User Preference
+Water,20,80,22,15,90,Normal
+Tea,25,65,22,8,85,Warm
+Coffee,60,90,22,10,88,Hot
+Juice,30,60,25,12,80,Cool
+Soda,22,75,22,14,87,Normal
